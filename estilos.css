@@ -67,3 +67,41 @@ body{
     resize: both;
     overflow: auto;
 }
+
+
+.parent-example-4{
+    display: flex;
+    justify-content: center;;
+}
+
+.example-4{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  @media (orientation: landscape) {
+    .parent-example-4{
+      flex-direction: row;
+      align-items: center;
+     
+    }
+    .example-4{
+        background: rgb(122, 207, 210);
+        border: 1px solid rgb(69, 126, 57);
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .parent-example-4 {
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    .example-4{
+        background: lightpink;
+        border: 1px solid red;
+    }
+  }
