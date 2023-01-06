@@ -105,3 +105,13 @@ body{
         border: 1px solid red;
     }
   }
+
+
+  table tr td {
+    border: 1px solid black;
+    
+  }
+
+  table{
+    border-collapse: collapse;
+  }
